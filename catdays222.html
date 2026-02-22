@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="zh-TW"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;喵喵節快樂！2.22 Nyan Day&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--cat-pink: #ffb7c5;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--cat-yellow: #fff9ae;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--cat-yellow);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: url('data:image/svg+xml;utf8,&lt;svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"&gt;&lt;path fill="%23f08080" d="M12 2C10.9 2 10 2.9 10 4s.9 2 2 2s2-.9 2-2s-.9-2-2-2M7 4C5.9 4 5 4.9 5 6s.9 2 2 2s2-.9 2-2s-.9-2-2-2m10 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m-5 8c-2.8 0-5 2.2-5 5s2.2 5 5 5s5-2.2 5-5s-2.2-5-5-5Z"/&gt;&lt;/svg&gt;'), auto;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #d63384;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 2px 2px white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>#cat-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>user-select: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>#cat-container:active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(0.9);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>#speech-bubble {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: -60px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>white-space: nowrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 6px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>#speech-bubble::after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: -10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-width: 10px 10px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-style: solid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: white transparent transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.heart {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ff6b6b;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>pointer-events: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: floatUp 1s ease-out forwards;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes floatUp {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0% { transform: translateY(0) scale(1); opacity: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>100% { transform: translateY(-100px) scale(1.5); opacity: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #d63384;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px #a02663;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn:active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 2px #a02663;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(2px);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>#fact-display {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #555;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 80%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;🐾 貓之日快樂 🐾&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;點擊貓咪來摸摸牠吧！&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="cat-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="speech-bubble"&gt;喵～&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>🐱</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="btn" onclick="showFact()"&gt;獲得貓咪冷知識&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="fact-display"&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const cat = document.getElementById('cat-container');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const bubble = document.getElementById('speech-bubble');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const factDisplay = document.getElementById('fact-display');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const catTalks = ["罐罐呢？", "再摸一下就咬你喔", "奴才表現不錯", "（呼嚕嚕...）", "喵嗚！", "要玩逗貓棒嗎？", "朕餓了。"];</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const catFacts = [</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"貓咪的肉球可以排汗唷！",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"貓咪發出呼嚕聲不一定是開心，有時是在自我修復。",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"貓咪一輩子有 70% 的時間在睡覺。",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"每隻貓咪的鼻紋都是獨一無二的。",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"貓咪跳躍的高度可以達到自己身高的 6 倍！"</p>
+<p class="p1"><span class="Apple-converted-space">        </span>];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>cat.addEventListener('click', (e) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 顯示對話框</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const randomTalk = catTalks[Math.floor(Math.random() * catTalks.length)];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bubble.innerText = randomTalk;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bubble.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; bubble.style.display = 'none', 1500);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 產生愛心</p>
+<p class="p1"><span class="Apple-converted-space">            </span>createHeart(e.clientX, e.clientY);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createHeart(x, y) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const heart = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>heart.classList.add('heart');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>heart.innerHTML = '❤️';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>heart.style.left = x - 10 + 'px';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>heart.style.top = y - 40 + 'px';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.body.appendChild(heart);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; heart.remove(), 1000);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function showFact() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const randomFact = catFacts[Math.floor(Math.random() * catFacts.length)];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>factDisplay.innerText = "💡 " + randomFact;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
